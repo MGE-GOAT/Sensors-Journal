@@ -1,0 +1,50 @@
+{
+ "matched_thresholds": {
+  "A0_conv": 0.613,
+  "A1_generic": 0.613,
+  "A2_twin": 0.605,
+  "A3_randtwin": 0.623
+ },
+ "fa_times": {
+  "A0_conv": [
+   556.2,
+   6252.3,
+   6306.3,
+   6330.3,
+   9309.3,
+   11562.3,
+   12319.8,
+   25375.2,
+   31088.1,
+   32526.9,
+   33015.0,
+   34421.7,
+   34971.3,
+   35090.1,
+   35761.8
+  ],
+  "A1_generic": [
+   556.2
+  ],
+  "A2_twin": [],
+  "A3_randtwin": [
+   6306.6
+  ]
+ },
+ "neg_hours": 9.918,
+ "episodes_gap5s": {
+  "k": 15,
+  "discordant_vs_twin": 15,
+  "p_sign": 3.0517578125e-05
+ },
+ "episodes_gap10s": {
+  "k": 15,
+  "discordant_vs_twin": 15,
+  "p_sign": 3.0517578125e-05
+ },
+ "episodes_gap30s": {
+  "k": 14,
+  "discordant_vs_twin": 14,
+  "p_sign": 6.103515625e-05
+ }
+}

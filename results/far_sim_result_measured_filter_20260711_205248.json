@@ -1,0 +1,17 @@
+{
+  "arm_name": "measured_filter",
+  "tflite_path": "/home/mahrad/storage/Data/wake/WUW-final/Wake Up Word/1/models-dscnnqat/dscnn_int8_20260710_172219_measured_filter.tflite",
+  "n_files_simulated": 343949,
+  "n_files_failed": 0,
+  "total_hours": 413.6731605729522,
+  "total_false_alarms": 1,
+  "far_per_hour": 0.002417367369483106,
+  "elapsed_minutes": 218.16941390037536,
+  "decision_params": {
+    "alpha": 0.3,
+    "threshold_up": 0.6,
+    "threshold_down": 0.3,
+    "margin_min": 0.2,
+    "cooldown_frames": 7
+  }
+}

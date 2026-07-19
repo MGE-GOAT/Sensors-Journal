@@ -1,0 +1,15 @@
+{
+  "wake_auc": 0.9999619089767775,
+  "far_at_frr2pct": 0.00032216494845360824,
+  "far_noise@0.5": 0.0,
+  "far_other@0.5": 0.004510309278350515,
+  "other_vs_noise_acc": 0.9713273195876289,
+  "scheme": "3class",
+  "phase": "qat",
+  "epochs": 60,
+  "fp32_train_s": 2878.9,
+  "num_classes": 3,
+  "params": 78423,
+  "tflite": "/home/mahrad/wuwexp/models/3class_qat_final_int8.tflite",
+  "tflite_kb": 181.6
+}

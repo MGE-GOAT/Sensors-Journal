@@ -1,0 +1,19 @@
+{
+  "conv": {
+    "wake_auc": 0.9999335742374322,
+    "far_at_frr2pct": 0.0009664948453608248,
+    "far_noise@0.5": 0.0006443298969072165,
+    "far_other@0.5": 0.0032216494845360823,
+    "other_vs_noise_acc": 0.9587628865979382
+  },
+  "twin": {
+    "wake_auc": 0.9994995233951535,
+    "far_at_frr2pct": 0.0035438144329896907,
+    "far_noise@0.5": 0.0019329896907216496,
+    "far_other@0.5": 0.004510309278350515,
+    "other_vs_noise_acc": 0.9458762886597938
+  },
+  "label": "A0_conv_s101",
+  "train_cache": "/home/mahrad/wuwexp/cache/features_pcen.npz",
+  "seed": 101
+}

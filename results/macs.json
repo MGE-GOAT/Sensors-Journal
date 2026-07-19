@@ -1,0 +1,32 @@
+[
+  {
+    "model": "noban_v17",
+    "params": 75075,
+    "flops": 124696050,
+    "macs": 62348025
+  },
+  {
+    "model": "dscnn_s",
+    "params": 14739,
+    "flops": 10310706,
+    "macs": 5155353
+  },
+  {
+    "model": "dscnn_m",
+    "params": 28931,
+    "flops": 20762002,
+    "macs": 10381001
+  },
+  {
+    "model": "cnn_trad",
+    "params": 1707395,
+    "flops": 62389010,
+    "macs": 31194505
+  },
+  {
+    "model": "tc_resnet8",
+    "params": 65011,
+    "flops": 1551434,
+    "macs": 775717
+  }
+]

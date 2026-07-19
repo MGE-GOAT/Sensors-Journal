@@ -1,0 +1,38 @@
+{
+  "A0_conv": {
+    "auc": 0.8695166666666666,
+    "far2": 0.9733333333333334,
+    "speech_fa": 58,
+    "noise_fa": 24,
+    "recall_at_0p5": 0.84,
+    "n_speech": 300,
+    "n_noise": 300
+  },
+  "A1_generic": {
+    "auc": 0.8588833333333333,
+    "far2": 0.84,
+    "speech_fa": 40,
+    "noise_fa": 10,
+    "recall_at_0p5": 0.75,
+    "n_speech": 300,
+    "n_noise": 300
+  },
+  "A2_twin": {
+    "auc": 0.8769166666666667,
+    "far2": 0.9283333333333333,
+    "speech_fa": 20,
+    "noise_fa": 3,
+    "recall_at_0p5": 0.72,
+    "n_speech": 300,
+    "n_noise": 300
+  },
+  "A3_randtwin": {
+    "auc": 0.8818333333333334,
+    "far2": 0.94,
+    "speech_fa": 22,
+    "noise_fa": 6,
+    "recall_at_0p5": 0.77,
+    "n_speech": 300,
+    "n_noise": 300
+  }
+}

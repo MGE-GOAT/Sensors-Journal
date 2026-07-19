@@ -1,17 +1,21 @@
-# Never commit data or derived caches (private human-voice recordings)
+# Private human-voice recordings and large derived caches — never commit
 *.npz
 cache/
 data/
 *.flac
-# keep measurement/reference.wav (sweep stimulus, no PII); ignore any other audio
-/**/*_capture.wav
-inmp_*.wav
-pc_*.wav
+stress_feature_cache/
+session2/
+session3/
+extended_session_10h/
+# Audio: commit ONLY the small measurement fixtures; ignore all other WAVs
+*.wav
+!measurement/reference.wav
+!measurement/inmp_fanon.wav
+!measurement/inmp_fanoff.wav
 # python
 __pycache__/
 *.pyc
 *.pyo
 .ipynb_checkpoints/
-# logs / results
+# logs (result JSONs ARE committed; logs are not)
 *.log
-results/

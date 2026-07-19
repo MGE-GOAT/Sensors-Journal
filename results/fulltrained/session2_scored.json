@@ -1,0 +1,90 @@
+{
+ "hours": 12.0,
+ "arms": {
+  "A0_conv_s100": {
+   "th": 0.62,
+   "fa": 1,
+   "fa_per_hr": 0.0833,
+   "fa_times": [
+    30765.9
+   ]
+  },
+  "A0_conv_s101": {
+   "th": 0.62,
+   "fa": 0,
+   "fa_per_hr": 0.0,
+   "fa_times": []
+  },
+  "A0_conv_s99": {
+   "th": 0.62,
+   "fa": 2,
+   "fa_per_hr": 0.1667,
+   "fa_times": [
+    2106.3,
+    30765.6
+   ]
+  },
+  "A1_generic_s100": {
+   "th": 0.584,
+   "fa": 3,
+   "fa_per_hr": 0.25,
+   "fa_times": [
+    1779.6,
+    2106.3,
+    30765.6
+   ]
+  },
+  "A1_generic_s101": {
+   "th": 0.584,
+   "fa": 0,
+   "fa_per_hr": 0.0,
+   "fa_times": []
+  },
+  "A1_generic_s99": {
+   "th": 0.584,
+   "fa": 1,
+   "fa_per_hr": 0.0833,
+   "fa_times": [
+    2106.3
+   ]
+  },
+  "A2_twin_s100": {
+   "th": 0.613,
+   "fa": 0,
+   "fa_per_hr": 0.0,
+   "fa_times": []
+  },
+  "A2_twin_s101": {
+   "th": 0.613,
+   "fa": 0,
+   "fa_per_hr": 0.0,
+   "fa_times": []
+  },
+  "A2_twin_s99": {
+   "th": 0.613,
+   "fa": 1,
+   "fa_per_hr": 0.0833,
+   "fa_times": [
+    24831.6
+   ]
+  },
+  "A3_randtwin_s100": {
+   "th": 0.598,
+   "fa": 0,
+   "fa_per_hr": 0.0,
+   "fa_times": []
+  },
+  "A3_randtwin_s101": {
+   "th": 0.598,
+   "fa": 0,
+   "fa_per_hr": 0.0,
+   "fa_times": []
+  },
+  "A3_randtwin_s99": {
+   "th": 0.598,
+   "fa": 0,
+   "fa_per_hr": 0.0,
+   "fa_times": []
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+  "conv": {
+    "wake_auc": 0.9994100561961953,
+    "far_at_frr2pct": 0.003865979381443299,
+    "far_noise@0.5": 0.0019329896907216496,
+    "far_other@0.5": 0.015463917525773196,
+    "other_vs_noise_acc": 0.9355670103092784
+  },
+  "twin": {
+    "wake_auc": 0.9994721227680944,
+    "far_at_frr2pct": 0.0032216494845360823,
+    "far_noise@0.5": 0.0006443298969072165,
+    "far_other@0.5": 0.015463917525773196,
+    "other_vs_noise_acc": 0.9368556701030928
+  },
+  "label": "A3_randtwin_s99",
+  "train_cache": "/home/mahrad/wuwexp/cache/features_pcen_randtwin.npz",
+  "seed": 99
+}
