@@ -20,7 +20,7 @@ contributions are the measurement protocol and the measured filter.
 ### `measurement/` — transducer characterization
 - `twin_fir.npy` — the measured conventional→INMP441 magnitude-response FIR *H* (16 kHz, minimum-phase).
 - `reference.wav` — the 9 s log-sine sweep stimulus (50 Hz–7.5 kHz) used for the swept-sine measurement.
-- `inmp_fanon.wav`, `inmp_fanoff.wav` — fan on/off INMP441 recordings behind the Discussion's +18–21 dB self-noise note.
+- `inmp_fanon.wav`, `inmp_fanoff.wav` — fan on/off INMP441 recordings behind the Limitations' self-noise note (a ~18.5 dB tonal peak near 1.7 kHz with band totals and broadband RMS essentially unchanged).
 
 ### `models/`
 - `3class_qat_final_int8.tflite` — the deployed INT8 detector (~182 KB, 75,075 params) → **Table I (`tab:bench`)**, **Table `tab:fa`**.
@@ -51,7 +51,7 @@ Front-end/model constants (16 kHz, 512-pt FFT, 320 hop, 32 mel 60–6000 Hz, PCE
 ## Data availability
 
 - The **keyword recordings** and all **live/replayed session audio** are identifiable
-  human-voice data collected under consent that does not permit public redistribution,
+  human-voice data recorded and submitted voluntarily for this work, without permission for public redistribution,
   and are **withheld to protect speaker privacy**.
 - The **413.7 h stress corpus**, cached feature `*.npz` files (8.7 GB), and the raw
   measurement/session WAVs are **too large to distribute**; the non-keyword classes derive
